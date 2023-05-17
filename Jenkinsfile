@@ -10,7 +10,7 @@ pipeline{
        stage('Run the maven'){
           steps{
              echo 'run the project'
-              sh 'mvn sprin-boot:run'
+              sh 'mvn spring-boot:run'
        }
       }
     }
